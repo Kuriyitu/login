@@ -11,8 +11,6 @@ store.registerAdapter("login", {//No I18n
     	url= "http://localhost:8080/login/login";
        
         return url;
-
-
     }
    
 });
