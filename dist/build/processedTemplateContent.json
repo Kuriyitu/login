@@ -1,0 +1,1 @@
+{"signup-app":{"content":"<template tag-name=\"signup-app\"> <div>signup-app</div><br> ID: <input type=\"text\" name=\"id\" value=\"{{lbind(emailId)}}\"> password: <input type=\"text\" name=\"password\" value=\"{{lbind(password)}}\"> <button onclick={{action(submit,this)}}> Submit </button><br> <input type=button onClick=\"location.href='#login'\" value='login'> </template>"}}

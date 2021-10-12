@@ -1,0 +1,51 @@
+/* Default theme imported */
+@import "../themes/default/ui-elements/banner/banner.variables.less";
+
+/* Loading theme in configuration */
+@import "../config.less";
+@import (optional) "../themes/@{banner}/ui-elements/banner/banner.variables.less";
+
+/* rtl files loading */
+
+@import (multiple,optional) "../themes/default/global/@{direction}.less";
+
+@import (multiple,optional) "../themes/@{banner}/global/@{direction}.less";
+
+/* Loading final tweaks to your variables */
+@import (optional) "../overrides/ui-elements/banner.variables.less";
+
+
+.lyteBannerModal lyte-modal-content {
+	.BannerModalContentMixin();
+	background: @bg;
+	padding: @padding;
+	text-align: center;
+}
+.lyteBannerModal .lyteModal {
+    .BannerModalMixin();
+	border: @border;
+}
+.lyteBannerModal .lyteModalFromBottom {
+	.BannerModalFromBottomMixin();
+	box-shadow: @box-shadow;
+}
+.lyteBannerModal .lyteModalFromTop {
+	.BannerModalFromTopMixin();
+	box-shadow: @box-shadow;
+}
+.lyteBannerModal .lyteModalClose {
+	.BannerModalCloseMixin();
+	top: @top;
+}
+.lyteBannerNonFloating {
+	.lyteBannerNonFloatingMixin();
+	background: @bg;
+	font-family: @primaryFont;
+	padding: @padding;
+	text-align: center;
+	position: relative;
+}
+.lyteBannerNonFloating .lyteModalClose {
+	.lyteBannerNonFloatingCloseMixin();
+	top: @top;
+}

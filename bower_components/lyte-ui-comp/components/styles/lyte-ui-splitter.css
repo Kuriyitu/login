@@ -1,0 +1,41 @@
+lyte-splitter lyte-yield {
+  height: 100%;
+  display: flex;
+  width: 100%;
+}
+lyte-row-splitter{
+  display: flex;
+  flex-direction: column;
+  border-top: solid 1px #eee;
+  border-bottom: solid 1px #eee;
+  flex-grow: 1;
+}
+lyte-column-splitter{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  border-right: solid 1px #eee;
+  border-left: solid 1px #eee;
+}
+lyte-row-element,
+lyte-column-element{
+  flex-grow: 1;
+  overflow: auto;
+  display: flex;
+}
+lyte-column-handle{
+  width: 5px;
+  background: #ddd;
+  border-radius: 6px;
+  cursor: col-resize;
+  user-select: none;
+  -webkit-user-select : none;
+}
+lyte-row-handle{
+  height: 5px;
+  background: #ddd;
+  border-radius: 6px;
+  cursor: row-resize;
+  user-select: none;
+  -webkit-user-select : none;
+}

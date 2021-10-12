@@ -1,0 +1,41 @@
+CliLocation :/usr/local/lib/node_modules/lyte-cli
+ CliVersion 3.1.0
+[Time] : copyAppDir =>0.001 s
+Building components ....
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/signup-app.html
+[Time] => find unclosedTags => 0.009 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0 s
+puppeteer log file found
+wsEndpointws://127.0.0.1:45513/devtools/browser/1ceeabb1-254b-49ff-bb24-a49ab38ecfde
+calling puppeteer connect
+error caughtconnect ECONNREFUSED 127.0.0.1:45513
+Again calling the call puppeteer
+puppeteer log file found
+wsEndpointws://127.0.0.1:35869/devtools/browser/6bbca64f-07ef-4d44-9c93-e966c74a06e4
+calling puppeteer connect
+browser end point ws://127.0.0.1:35869/devtools/browser/6bbca64f-07ef-4d44-9c93-e966c74a06e4
+opening in the already existing browser end point
+Browser launched
+page opened
+Initiating the template processor
+Initiating the template processor
+Post method request get caught with url/post
+chunk printed
+Callback function called
+Resolving the template processor
+Generating dist components...
+
+[Time] => components completed : 0.717 s
+========== Components compiled ==========
+Building models ..............
+
+Warning : File not found data-store/serializers/login.js
+Consolidated file created in the dist/data-store/models/login.js
+
+[Time] => 0.009 s
+================= _super call of model completed =======================
+Consolidated file created in the dist/app.js
+
+LiveServer running in 39225

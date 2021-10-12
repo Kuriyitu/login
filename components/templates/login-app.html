@@ -1,0 +1,14 @@
+<template tag-name="login-app">
+
+    <div>login-app</div>
+    ID:
+    <input type="text" name="id" value="{{lbind(id)}}">
+    password:
+    <input type="text" name="password" value="{{lbind(password)}}">
+
+    <button onclick={{action(submit,this)}}> Submit </button>
+
+    <input type=button onClick="location.href='#signup'"
+    value='signup'> 
+</template>
+
